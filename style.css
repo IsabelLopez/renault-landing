@@ -42,7 +42,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   .arkana-image {
-      object-position: 62% center;
+      object-position: left;
       /* shifts the focus to the right */
     }
+
+  .content{
+    height:79vh
+  }
 }
