@@ -20,13 +20,17 @@ body {
 }
 
 .header {
-  padding: 32px;
   background-color: black;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  display: flex;
 }
 
-.logo {
-  width: 64px;
+.logo{
+  width:27px;
+  margin-left: 16px;
 }
 
 .content{
@@ -46,6 +50,27 @@ body {
   padding: 20px;
   text-align: end;
   font-family: 'NouvelR', sans-serif;
+}
+
+
+@media only screen and (min-width: 670px) {
+  .logo {
+    width: 36px;
+  }
+  .header {
+    min-height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 64px;
+    margin-left: 32px;
+  }
+  .header {
+    min-height: 150px;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
