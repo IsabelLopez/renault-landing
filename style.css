@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'NouvelR';
+  src: url('fonts/NouvelR-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   background-color: #000;
@@ -13,13 +20,13 @@ body {
 }
 
 .header {
-  padding: 20px;
+  padding: 32px;
   background-color: black;
   width: 100%;
 }
 
 .logo {
-  width: 40px;
+  width: 64px;
 }
 
 .content{
@@ -38,6 +45,7 @@ body {
   width: 100%;
   padding: 20px;
   text-align: end;
+  font-family: 'NouvelR', sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
